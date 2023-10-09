@@ -4,5 +4,5 @@ services:
       args:
         GID: 20
         UID: 501
-        USER: unicorn
+        USER: admin
     user: 501:20
