@@ -2,7 +2,7 @@ services:
   mosquitto:
     build:
       args:
-        GID: [GID]
-        UID: [UID]
-        USER: [USER]
-    user: [UID]:[GID]
+        GID: 20
+        UID: 501
+        USER: unicorn
+    user: 501:20
